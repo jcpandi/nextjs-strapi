@@ -7,7 +7,7 @@ export default function HomePage({events}) {
 
   return (
     <Layout keywords='DJ, Events'>
-      <h1>Upcoming Events</h1>
+      <h1>Our Upcoming Events</h1>
       {events.length === 0 && <h3>No events to Show</h3>}
 
       {events.map((evt) => (
